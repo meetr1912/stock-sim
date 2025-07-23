@@ -1,0 +1,52 @@
+
+PEAD STRATEGY BACKTEST REPORT
+==================================================
+
+STRATEGY PARAMETERS:
+- Holding Period: 5 days
+- Minimum Surprise Threshold: 5.00%
+
+PERFORMANCE SUMMARY:
+- Total Trades: 45
+- Win Rate: 60.00%
+- Average Return per Trade: 1.31%
+- Total Strategy Return: 58.77%
+- Sharpe Ratio: 0.216
+
+TRADE BREAKDOWN:
+- Winning Trades: 27
+- Losing Trades: 18
+
+MONTHLY PERFORMANCE:
+                 sum  count      mean
+year_month                           
+2023-01    -0.061187      3 -0.020396
+2023-02     0.075445      5  0.015089
+2023-03     0.016710      1  0.016710
+2023-04     0.051584      3  0.017195
+2023-05     0.056109      1  0.056109
+2023-06     0.050696      1  0.050696
+2023-07     0.061977      2  0.030989
+2023-08     0.022047      2  0.011023
+2023-10     0.097956      3  0.032652
+2023-11     0.001153      1  0.001153
+2024-01    -0.074614      2 -0.037307
+2024-02    -0.016743      3 -0.005581
+2024-04     0.175228      3  0.058409
+2024-05     0.111642      3  0.037214
+2024-06     0.013098      1  0.013098
+2024-07    -0.216186      2 -0.108093
+2024-08     0.044708      3  0.014903
+2024-10    -0.049814      3 -0.016605
+2024-11     0.227875      3  0.075958
+
+DATA COVERAGE:
+- Price Data Records: 5010
+- Unique Tickers: 10
+- Date Range: 2023-01-03 00:00:00-05:00 to 2024-12-30 00:00:00-05:00
+- Earnings Events: 45 (identified via price gaps)
+
+NOTES:
+- This analysis uses price gaps as a proxy for earnings surprises
+- For production use, integrate actual earnings estimates and results
+- Consider transaction costs, slippage, and market impact in live trading
